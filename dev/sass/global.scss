@@ -1,0 +1,28 @@
+html,
+body {
+  font-family: "Lato";
+  background-color: #fff;
+  color:  #1E212C;
+  font-weight: 700;
+}
+
+.container, .playes, .container-first {
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 59.8px;
+  text-align: left;
+}
+h3{    
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

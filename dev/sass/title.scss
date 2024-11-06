@@ -1,0 +1,60 @@
+.title-cont{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.control-large label{
+    padding: 0;
+}
+.control-large label:before{
+    display: none;
+}
+.control-large .control-box{
+    width: 50%;
+}
+.control-box{
+    color: #9A9CA5;
+    display: flex;
+    border-radius: 4px;
+    max-width: 307px;
+    min-height: 46px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+    justify-content: center;
+}
+.control-large{
+    margin-bottom: 40px;
+}
+.control-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title-fild{
+    width: 1230px;
+}
+label{
+    cursor: pointer;
+}
+.control-box:hover{
+    border: 1px solid  #9A9CA5;
+}
+.custom-input{
+    display: none;
+}
+.control-box:has(input:checked) {
+    border: 1px solid #FF3F3A;
+    color: #FF3F3A;
+  }
+  label[for="community"]:before {
+    content: url(assets/img/Chat.png);
+    padding-right: 8px;
+    height: 23px;
+}
+.control-box.nast:before {
+    content: url(assets/img/Chat.png); 
+}

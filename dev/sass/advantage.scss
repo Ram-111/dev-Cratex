@@ -1,0 +1,94 @@
+.advantage{
+    display: flex;
+    width: 600px;
+    border-radius: 4px;
+    border: 1px solid #E5E8ED;
+    box-shadow: 0px 4px 4px -4px #1E212C08,0px 12px 10px -6px #9A9CA50A, 0px 30px 24px -10px #9A9CA50D, 0px 80px 80px -20px #9A9CA514 ;
+}
+.advantage-text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 322px;
+    height: 174px;
+    gap: 20px 0;
+    padding: 32px;
+    padding-top: 25px;
+
+    h4{
+        color: #FFFFFF;
+        background: #03CEA4;
+        font-size: 14px;
+        border-radius: 4px;
+        min-width: 80px;
+        height: 23px;
+        display: flex;
+        align-items: center;
+        padding-left: 8px;
+    }
+    h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-transform: none;
+    }
+    .advan{
+        color: #FF4242;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        position: relative;
+    }
+    .advantage-title{
+        color: #787A80;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+    }
+    .advan:after{
+        content: "";
+        display: inline-block;
+        width: 16px;
+        height: 1px;
+        background-color: #787A80;
+        top: 10px;
+        position: absolute;
+        transform: rotate(90deg);
+    }
+    .advent-2{
+        background: #5A87FC;
+    }
+    .advent-3{
+        background: #F89828;
+    }
+    .advent-6{
+        background: #F52F6E;
+    }
+}
+.advantage-wrapper {
+    flex-wrap: wrap;
+    gap: 30px 30px;
+    display: flex;
+    width: 1230px;
+}
+.advantage-slide{
+    width: 600px;
+}
+.template-title{
+    position: relative;
+    width: 1230px;
+    margin-bottom: 60px;
+}
+.abit-2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.templas{
+    width: 1230px;
+}
+.acsent .advantages{
+    margin-bottom: 180px;
+}

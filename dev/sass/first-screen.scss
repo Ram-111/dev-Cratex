@@ -1,0 +1,43 @@
+.first-box{
+    display:flex ;
+    justify-content: space-between;
+    width: 1230px;
+}
+.first-oran{
+    font-size: 14px;
+    font-weight: 700;
+}
+.first-item{
+    color: #424551;
+    font-weight: 400;
+    line-height: 25.6px;
+    padding-left: 32px;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_2492_14491)'%3E%3Cpath d='M7.99984 15.3337C12.0432 15.3337 15.3332 12.044 15.3332 8.00033C15.3332 7.30238 15.2357 6.61458 15.0428 5.95588C14.9478 5.63197 14.6096 5.44592 14.2848 5.54096C13.9606 5.6357 13.7751 5.97512 13.8698 6.29903C14.0296 6.84629 14.1109 7.4189 14.1109 8.00033C14.1109 11.3699 11.3695 14.1114 7.99984 14.1114C4.63022 14.1114 1.88873 11.3699 1.88873 8.00033C1.88873 4.63071 4.63022 1.88921 7.99984 1.88921C9.22445 1.88921 10.4027 2.24729 11.4071 2.92449C11.6866 3.11323 12.0668 3.03908 12.2552 2.75948C12.4438 2.47959 12.3703 2.09973 12.0904 1.91115C10.8834 1.09728 9.46898 0.666992 7.99984 0.666992C3.95645 0.666992 0.666504 3.95664 0.666504 8.00033C0.666504 12.044 3.95645 15.3337 7.99984 15.3337Z' fill='%23FF3F3A'/%3E%3Cpath d='M14.8617 1.52885L7.99971 8.3905L5.8044 6.19552C5.54399 5.93526 5.12211 5.93526 4.86169 6.19552C4.60144 6.45593 4.60144 6.87781 4.86169 7.13822L7.52836 9.80489C7.65873 9.93526 7.82898 10.0002 7.99971 10.0002C8.17045 10.0002 8.3407 9.93526 8.47107 9.80489L15.8044 2.47156C16.0647 2.21114 16.0647 1.78927 15.8044 1.52885C15.544 1.2686 15.1221 1.2686 14.8617 1.52885Z' fill='%23FF3F3A'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2492_14491'%3E%3Crect width='16' height='16' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+}
+.first-kub{
+    h2{
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 59.8px;
+    text-align: left;
+    margin-bottom: 40px;
+    }
+}
+.first-li{
+    flex-direction: column;
+    gap: 12px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: max-content;
+    margin: 0 auto; 
+    margin-bottom: 48px;
+    max-width: 368px;
+    height: 294px;
+}
+.first-section{
+    background-image: url(assets/img/background-first.png);
+    background-repeat: no-repeat;
+    margin-bottom: 180px;
+}
