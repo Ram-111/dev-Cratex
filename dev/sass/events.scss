@@ -1,0 +1,82 @@
+.events{
+    background-image: url(assets/img/bg-color.png);
+    
+}
+.eve{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.event-box {
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1230px;
+    margin-bottom: 60px;
+}
+.event-sect{
+    display: flex;
+    background: #FFFFFF;
+    align-items: center;
+    width: 1230px;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    height: 126px;
+
+    .abit-3{
+        position: relative;
+        padding: 9px 32px 9px 32px;
+    }
+    .abit-3:hover{
+        background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+        color: #FFFFFF;
+    }
+    .abit-3:focus{
+        background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+        color: #FFFFFF;
+    }
+    .event-lit{
+        display: flex;
+        align-items: center;
+    }
+    .event-lut{
+        width: 757px;
+    }
+    h5{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    }
+    h6{
+        color: #787A80;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+    }
+    span{
+        color: #FF3F3A;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 62.4px;
+        letter-spacing: 1px;
+        margin-right: 20px;
+    }
+}
+
+.event-sect.active-shadow {
+    box-shadow: 0px 4px 4px -4px #1E212C0D, 0px 12px 10px -6px #FF3F3A14, 0px 30px 24px -10px #FF3F3A1A, 0px 80px 80px -20px #FF3F3A29;
+  }
+  .event-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+
+    h3{
+        text-transform: none;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: left;
+        margin-right: 40px;
+    }
+}

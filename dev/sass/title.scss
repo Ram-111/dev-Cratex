@@ -27,15 +27,15 @@
     line-height: 25.6px;
     justify-content: center;
 }
-.control-large{
-    margin-bottom: 40px;
-}
+
 .control-row{
     display: flex;
     flex-wrap: wrap;
 }
 .title-fild{
     width: 1230px;
+    height: 46px;
+    margin: 60px 0 60px 0;
 }
 label{
     cursor: pointer;
@@ -57,4 +57,31 @@ label{
 }
 .control-box.nast:before {
     content: url(assets/img/Chat.png); 
+}
+.title-slow{
+    width: 495px;
+
+    h3{
+
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 41.6px;
+    text-transform: none;
+    margin-bottom: 24px;
+    }
+
+    p{
+    color: #424551;
+    font-weight: 400;
+    line-height: 25.6px;
+    }
+}
+.title-box{
+    display: flex;
+    justify-content: space-between;
+    width: 1230px;
+    align-items: center;
+}
+.container, .title{
+    margin-bottom: 120px;
 }
