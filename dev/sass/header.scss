@@ -1,6 +1,14 @@
 header{
 background-image: url(assets/img/background.png);
 }
+.hed{
+	background: none;
+
+}
+.hed .hed-2{
+	padding-bottom: 0;
+	margin-bottom: 80px;
+}
 header .container {
 	display: flex;
 	padding-top: 20px;
@@ -34,10 +42,10 @@ header .container {
 	color: #1E212C;
 	font-weight: 700;
 	font-size: 14px;
-  }
-  .yutub:before{
-	content: url(assets/img/hover.png);
-	background-repeat: no-repeat;
+	display: flex;
+	line-height: 21px;
+	align-items: center;
+	margin: 0;
   }
   .playes{
 	margin-bottom: 180px;
@@ -55,6 +63,7 @@ margin-bottom: 60px;
 .play-video{
 	max-width: 172px;
 	margin-bottom: 24px;
+	display: flex;
 }
 .cont-play{
 	display: flex;
@@ -111,4 +120,160 @@ font-weight: 900;
 line-height: 59.8px;
 text-align: center;
 padding-right: 12px;
+}
+
+
+button.hedsum {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+
+
+.modal-content {
+    padding: 48px;
+    text-align: center;
+	width: 486px;
+    border-radius: 4px;
+	border: 1px solid #E5E8ED;
+	box-shadow: 0px 4px 4px -4px #1E212C0D, 0px 12px 10px -6px #1E212C14, 0px 26px 24px -10px #1E212C1A, 0px 60px 80px -20px #1E212C29;
+
+	h3{
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 42px;
+		text-transform: none;
+		margin-bottom: 24px;
+	}
+	h5{
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 21px;
+		color: #787A80;
+		margin-bottom: 24px;
+
+	}
+	.pod-modeal{
+		margin-bottom: 16px;
+	}
+
+
+}
+button.btn-close {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+.modal-email, input#pwd{
+	border: 1px solid #D7DADD;
+	border-radius: 4px;
+	padding-top: 11px;
+	padding-bottom: 12px;
+	padding-left: 16px;
+	margin-bottom: 20px;
+}
+.labe-mail, .password__label{
+	text-align: left;
+	color: #424551;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	margin-bottom: 8px;
+	cursor: auto;
+
+}
+
+
+.password__label{
+	position: relative;
+	cursor: auto;
+
+	.password__btn{
+		position: absolute;
+		right: 15px;
+		top: 30px;
+		cursor: pointer;
+		&::after{
+			position: absolute;
+			content: '';
+			top: 0;
+			right: -3px;
+			width: 30px;
+			height: 4px;
+			transform: rotate(45deg);
+			transition: .3s all ease;
+			opacity: 1;
+
+		}
+	}
+}
+.password__btn {
+    cursor: pointer;
+	position: absolute;
+    bottom: 325px;
+    right: 65px;
+}
+input#pwd{
+	color:#424551;
+	font-weight: 300;
+}
+input#pwd::placeholder{
+	color:#424551;
+}
+input#keip {
+    width: 16px;
+    height: 16px;
+}
+.box-cheks{
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 24px;
+	label{
+		padding-left: 12px;
+		color: #424551;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 21px;
+	}
+	.h-chek{
+		margin: 0;
+		color: #FF3F3A;
+		cursor: pointer;
+	}
+}
+.p-modal{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+margin-bottom: 8px;
+
+	span{
+		color: #FF3F3A;
+		cursor: pointer;
+	}
+}
+.modal-but{
+	margin-bottom: 24px;
+	font-size: 14px;
+    font-weight: 400;
+	letter-spacing: 0.5px;
+
+}
+.soci-mereg{
+	display: flex;
+    gap: 12px;
+    text-align: center;
+    justify-content: center;
+}
+.soci-medal{
+	fill: #787A80;
+    width: 20px;
+	cursor: pointer;
+}
+.soci-medal:active{
+	fill: #FF3F3A;
 }

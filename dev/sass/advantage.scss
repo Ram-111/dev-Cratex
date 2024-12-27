@@ -7,6 +7,12 @@
     border: 1px solid #E5E8ED;
     box-shadow: 0px 4px 4px -4px #1E212C08,0px 12px 10px -6px #9A9CA50A, 0px 30px 24px -10px #9A9CA50D, 0px 80px 80px -20px #9A9CA514 ;
 }
+.templ-cours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .advantage-text{
     display: flex;
     flex-wrap: wrap;
@@ -25,6 +31,8 @@
         display: flex;
         align-items: center;
         padding-left: 8px;
+        padding-right: 8px;
+        margin-bottom: 0;
     }
     h3{
     font-size: 20px;
@@ -33,6 +41,7 @@
     text-align: left;
     text-transform: none;
     letter-spacing: 0;
+    margin-bottom: 0;
     }
     .advan{
         color: #FF4242;
@@ -48,6 +57,7 @@
         font-weight: 400;
         line-height: 27px;
         text-align: left;
+        margin-bottom: 0;
     }
     .advan:after{
         content: "";
@@ -93,4 +103,126 @@
 }
 .acsent .advantages{
     margin-bottom: 180px;
+}
+
+
+.template-cours-box a{
+    text-decoration: none;
+    color: #9A9CA5;
+    height: 46px;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+.template-cours-box a:hover{
+    border: 1px solid #9A9CA5;
+}
+.templ-acurs{
+    width: 815px;
+    gap: 12px;
+    display: flex;
+}
+.control-large-cours{
+    display: flex;
+    width: 815px;
+    justify-content: space-between;
+}
+.cors-advant{
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.curs-advantbi{
+    display: inline-block;
+    width: 390px;
+    height: 438px;
+    border-top-width: 0;
+}
+.curs-advantbob{
+    width: 390px;
+}
+.imgcurs{
+    border-radius: 4px;
+}
+.curstext{
+    gap: 0;
+    margin-top: 24px;
+    margin-left: 24px;
+    width: auto;
+
+    .advent-7{
+        background: #7772F1;
+    
+    }
+    
+}
+.custe-6{
+    gap:0 70px;
+}
+.conv-curs{
+    padding-right: 16px;
+    padding-bottom: 4px;
+}
+.curs-wrapp{
+    padding-bottom: 80px;
+}
+.cours-fild{
+    display: flex;
+    width: 1230px;
+    justify-content: space-between;
+}
+.tut{
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.tut-span{
+    position: absolute;
+    padding-left: 4px;
+    font-size: 10px;
+    font-weight: 900;
+    top: 5px;
+}
+.container-cours{
+    margin-bottom: 60px;
+}
+label.control-box.box-curs {
+    position: relative;
+}
+
+
+
+
+.search-form{
+    border: 1px solid #D7DADD;
+    display: inline-flex;
+    padding: 0 16px;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    width: 315px;
+    overflow: hidden;
+}
+.search-form__text{
+    color: #9A9CA5;
+    border: none;
+    width: 250px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.search-form__text::placeholder{
+    color: #9A9CA5;
+}
+.search-form__btn{
+    border: none;
+    padding: 0;
+    background: none;
+}
+.search-form__image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

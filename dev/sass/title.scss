@@ -49,15 +49,8 @@ label{
 .control-box:has(input:checked) {
     border: 1px solid #FF3F3A;
     color: #FF3F3A;
+    fill: #FF3F3A;
   }
-  label[for="community"]:before {
-    content: url(assets/img/Chat.png);
-    padding-right: 8px;
-    height: 23px;
-}
-.control-box.nast:before {
-    content: url(assets/img/Chat.png); 
-}
 .title-slow{
     width: 495px;
 
@@ -85,3 +78,12 @@ label{
 .container, .title{
     margin-bottom: 120px;
 }
+  .star {
+    fill: #9A9CA5;
+    margin-right: 8px;
+    width: 16px;
+  }
+  .control-box.active .star {
+    fill: #FF3F3A;
+  }
+

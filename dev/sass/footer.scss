@@ -1,2 +1,150 @@
+.footer {
+  background: #1E212C;
+  color: #FFFFFF;
+  }
+  .imfot{
+    width: 130px;
+    margin-bottom: 24px;
+  }
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+  .footer .address-column {
+    max-width: 280px;
+    width: 100%;
+  }
+  .footer address {
+    display: flex;
+    flex-direction: column;
+  }
+  address p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    opacity: 60%;
+  }
 
+  .footer .menu-wrapper {
+    display: flex;
+    gap: 80px;
+  }
+  .footer .footer-title { 
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+  }
+  .footer .footer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    opacity: 60%;
+  }
+  .footer .footer-menu a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: #FFFFFF;
+
+  }
+.footer-social{
+    display: flex;
+    max-width: 244px;
+    justify-content: space-between;
+}
+.img-contact{
+  margin: 0 8px 4px 0;
+}
+.footer-group{
+width: 286px;
+::placeholder{
+  color: #FFFFFF;
+  opacity: 60%;
+}
+
+.form-control{
+margin-bottom: 12px;
+font-size: 12px;
+font-weight: 400;
+padding: 0.5625rem 0.75rem;
+border: 1px solid #FFFFFF33;
+background: #FFFFFF1F;
+color: #FFFFFF;
+position: relative;
+
+}
+.input-group-btn {
+  position: relative;
+}
+button {
+  position: absolute;
+    left: 240px;
+    top: -51px;
+    width: 45px;
+    height: 35px;
+    padding: 10px 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+label{
+  margin-bottom: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.footer-text{
+  color: #FFFFFF;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  opacity: 80%;
+}
+}
+
+
+
+.futer-down {
+    display: flex;
+    width: 100%;
+    background: rgba(255, 255, 255, 5% );
+
+    .footer-nis{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 0;
+
+      h6{
+        display: flex;
+        gap: 4px;
+        height: 18px;
+        text-decoration: none;
+        text-transform: none;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin-bottom: 0;
+      }
+      a{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 0;
+    opacity: 60%;
+    color: #FFFFFF;
+    text-decoration: none;
+        }
+    }
+  }
+  
+  
+  
  

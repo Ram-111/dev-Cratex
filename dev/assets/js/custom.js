@@ -78,3 +78,46 @@ const montiasSlider = new Swiper('.montias-slider', {
 		},	
 	},
 });
+
+
+
+
+
+document.querySelectorAll('.control-box').forEach((label) => {
+	label.addEventListener('click', () => {
+	  document.querySelectorAll('.control-box').forEach((box) => {
+		box.classList.remove('active');
+	  });
+	  label.classList.add('active');
+	});
+  });
+  document.addEventListener("DOMContentLoaded", () => {
+    const firstElement = document.querySelector(".control-box");
+    if (firstElement) {
+        firstElement.classList.add("active");
+    }
+});
+
+
+
+
+//password//
+function showPassword() {
+	const btn = document.querySelector('.password__btn')
+	const input = document.querySelector('.password__input')
+
+	btn.addEventListener('click', () => {
+		btn.classList.toggle('active')
+
+		if (input.getAttribute('type') === 'password') {
+			input.setAttribute('type', 'text')
+		} else {
+			input.setAttribute('type', 'password')
+
+		}
+	})
+}
+showPassword()
+
+
+
