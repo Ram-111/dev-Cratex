@@ -82,7 +82,7 @@ const montiasSlider = new Swiper('.montias-slider', {
 
 
 
-
+//title labal//
 document.querySelectorAll('.control-box').forEach((label) => {
 	label.addEventListener('click', () => {
 	  document.querySelectorAll('.control-box').forEach((box) => {
@@ -97,6 +97,10 @@ document.querySelectorAll('.control-box').forEach((label) => {
         firstElement.classList.add("active");
     }
 });
+
+
+
+
 
 
 
@@ -121,3 +125,63 @@ showPassword()
 
 
 
+
+  
+//list-grid//
+
+const list = document.querySelector(".list");
+const grid = document.querySelector(".grid");
+const ltg = document.querySelector(".ltg");
+
+list.addEventListener("click", () => {
+    ltg.classList.add("list");
+    ltg.classList.remove("grid");
+
+    list.classList.add("active-border");
+    grid.classList.remove("active-border");
+});
+
+grid.addEventListener("click", () => {
+    ltg.classList.add("grid");
+    ltg.classList.remove("list");
+
+    grid.classList.add("active-border");
+    list.classList.remove("active-border");
+});
+
+
+
+
+
+
+
+
+
+
+
+/*blog-2 blog-card*/
+document.addEventListener('DOMContentLoaded', () => {
+    const radioButtons = document.querySelectorAll('.custom-input');
+    const blogCards = document.querySelectorAll('.blog-card');
+
+    // Функция для фильтрации карточек
+    const filterCards = (filter) => {
+        blogCards.forEach(card => {
+            if (filter === 'all' || card.classList.contains(filter)) {
+                card.classList.remove('hidden');
+            } else {
+                card.classList.add('hidden');
+            }
+        });
+    };
+
+    // Слушатель событий на радио-кнопки
+    radioButtons.forEach(radio => {
+        radio.addEventListener('change', (event) => {
+            filterCards(event.target.value);
+        });
+    });
+
+    // Инициализация: отображение всех карточек при загрузке страницы
+    filterCards('all');
+});

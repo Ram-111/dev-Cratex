@@ -1,0 +1,133 @@
+.contact-mini {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+.contact-box h2{
+    margin-bottom: 40px;
+}
+.contact-pod{
+    padding-left: 12px;
+
+    h6{
+    color: #787A80;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 0;
+    }
+    h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 0;
+    }
+}
+.cont-botm{
+    margin-bottom: 48px;
+}
+.cont-follow{
+    margin-top: 24px;
+    width: 304px;
+    gap: 32px;
+    display: flex;
+
+    img{
+        cursor: pointer;
+    }
+}
+.kontakt .contactes{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 180px;
+}
+.map-con{
+    width: 705px;
+    height: 412px;
+    border-radius: 4px;
+}
+.input-box-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 340px;
+
+    label{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: #424551;
+    }
+
+    input{
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid #D7DADD;
+        padding: 13px 0 13px 16px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+        color: #9A9CA5;
+    }
+}
+.input-box-cont:not(:last-child) {
+    margin-bottom: 20px;
+}
+.form-column {
+    flex: 1 1 50%;
+}
+.form-row-cont {
+    display: flex;
+    column-gap: 25px;
+    margin-bottom: 24px;
+}
+.contact-questions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-form h2{
+    margin-bottom: 40px;
+}
+.con-mesng{
+    width: 100%;
+
+    .inp-message{
+        height: 128px;
+        border: 1px solid #D7DADD;
+        padding: 13px 0 13px 16px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+        border-radius: 4px;
+    }
+}
+.contact-chek-commincation{
+    display: flex;
+    align-items: baseline;
+
+    .chek-commun{
+        margin-right: 12px;
+    }
+
+ label{
+    color: #424551;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    width: 287px;
+    }
+
+}
+.contact-chek-messag{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-communicate{
+    width: 340px;
+}
+.kontakt .contact-questions{
+    margin-bottom: 180px;
+}

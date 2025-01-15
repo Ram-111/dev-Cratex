@@ -1,0 +1,72 @@
+.bloges2-control{
+    width: 461px;
+}
+.blog2-tut{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    
+    .imag-blog2{
+        fill: #9A9CA5;
+        padding-right: 8px;
+    }
+}
+label.control-box:has(input:checked) .imag-blog2 {
+    fill: #FF3F3A;
+}
+.blog2-box-podn {
+    display: flex;
+    align-items: center;
+}
+
+.blog2-serch{
+    width: 285px;
+}
+.blog2-even-grup{
+    padding-right: 40px;
+}
+.blog2-cont{
+    flex-wrap: wrap;
+    row-gap: 60px;
+    margin-bottom: 80px
+}
+.blogcard-blog2{
+    width: 705px;
+}
+.blogcard-blog2-bol2{
+    width: 495px;
+}
+.coursflid-blog2{
+    margin-bottom: 58px;
+}
+.blog2-subscribe{
+    background: #F4F5F6;
+}
+.blog2-nisu{
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog2-nisu-podni{
+    width: 600px;
+
+    h2{
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-bottom: 48px
+    }
+    .blog2-subes-group{
+        width: 600px;
+        height: 52px;
+        margin-bottom: 24px;
+
+        button{
+            margin-bottom: 0;
+        }
+    }
+    .blog2-comunicat-agree label{
+        width: auto;
+    }
+
+}

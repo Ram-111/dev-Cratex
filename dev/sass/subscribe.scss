@@ -29,6 +29,10 @@
 }
 .subes-group{
     display: flex;
+
+    ::placeholder{
+        color: #9A9CA5;
+    }
     .email-control{
         width: 422px;
         height: 52px;
